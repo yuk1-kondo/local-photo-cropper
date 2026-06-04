@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+
+# Student photos and generated outputs. Do not publish personal data.
+input/
+output*/
+output_*/
+preview_sheet/
+*_preview/
+*_output*/
+*_review/
+test_high_*/
+recursive_test_*/
+sample_input/
+sample_output*/
+sample_preview*/
+
+# Processing reports may contain original file names.
+report*.csv
+sample_report*.csv
+*_report.csv
+
+# Downloaded model binary. README contains the download command.
+models/
